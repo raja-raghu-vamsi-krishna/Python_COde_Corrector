@@ -7,11 +7,11 @@ openai_api_key = f.read()
 client = OpenAI(api_key = openai_api_key)
 
 #########################################
-st.title("🐍PYTHON CODE DEBUGGER🐍")
+st.title("🐍PYTHON CODE CORRECTOR🐍")
 st.subheader("🤷Review your code here.🥸")
 
 ###########################################
-
+st.snow()
 prompt = st.text_area("Enter your python code")
 
 if st.button("Generate") == True:
